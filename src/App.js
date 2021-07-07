@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Contacts from './Contacts';
-import ContactsForm from './Form';
+import Contacts from './Component/Contacts';
+import ContactsForm from './Component/Form';
 import './App.css';
 
 class App extends Component {
