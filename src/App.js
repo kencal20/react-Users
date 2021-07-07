@@ -9,8 +9,8 @@ class App extends Component {
     this.state = {
       contacts: [
         { name: "Caleb", phonenumber: "0291021912", location: "Tema" },
-        { name: "Jerry", phonenumber: "0291021912", location: "Kumasi" },
-        { name: "Andy", phonenumber: "0291021912", location: " Teshi" },
+        { name: "Jerry", phonenumber: "022332343", location: "Kumasi" },
+        { name: "Andy", phonenumber: "02932324343", location: " Teshi" },
       ]
     }
   }
