@@ -14,4 +14,4 @@ const usersRuducers = (state = initialState, action) => {
   }
 };
 
-export default usersRuducers;
+export default usersReducers;
