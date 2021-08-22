@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {connect} from 'react-redux'
+import { connect } from "react-redux";
 import { addUser } from "../actions/userActions";
 class Form extends Component {
   constructor(props) {
@@ -71,13 +71,13 @@ class Form extends Component {
     );
   }
 }
-const mapDispatchtoProps={
-  addNewUser:addUser
-}
+
 const mapStateToProps = (state) => {
   return {
     users: state.users,
-  }
-}
-
-export default connect(mapStateToProps,mapDispatchtoProps)(Form);
+  };
+};
+const mapDispatchtoProps = {
+  addNewUser: addUser,
+};
+export default connect(mapStateToProps, mapDispatchtoProps)(Form);
